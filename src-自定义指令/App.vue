@@ -1,22 +1,16 @@
 <template>
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png" />
-    <component-a />
-    <component-b />
-    <component-c />
+    <own-directive></own-directive>
   </div>
 </template>
 
 <script>
-import ComponentA from '@/components/CompA/ComponentA.vue'
-import ComponentB from './components/ComponentB.vue'
-import ComponentC from './components/ComponentC.vue'
+import OwnDirective from './components/OwnDirective.vue'
 export default {
   name: 'App',
   components: {
-    ComponentA,
-    ComponentB,
-    ComponentC,
+    OwnDirective
   }
 }
 </script>
