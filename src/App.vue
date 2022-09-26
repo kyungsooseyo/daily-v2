@@ -1,33 +1,76 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png" />
-    <component-a />
-    <component-b />
-    <component-c />
+    <p>12</p>
+    <p>12</p>
+    <p>12</p>
+    <p>12</p>
+    <p>12</p>
+    <p>12</p>
+    <p>12</p>
+    <p>12</p>
+    <p>12</p>
+    <p>12</p>
+    <p>12</p>
+    <p>12</p>
+    <p>12</p>
+    <p>12</p>
+    <p>12</p>
+    <p>12</p>
+    <p>12</p>
+    <p>12</p>
+    <p>12</p>
+    <p>12</p>
+    <p>12</p>
+    <p>12</p>
+    <p>12</p>
+    <p>12</p>
+    <p>12</p>
+    <p>12</p>
+    <p>12</p>
+    <p>12</p>
+    <p>12</p>
+    <p>12</p>
+    <p>12</p>
+    <p>12</p>
+    <p>12</p>
+    <p>12</p>
+    <p>12</p>
+    <p>12</p>
+    <p>12</p>
+    <p>12</p>
+    <p>12</p>
+    <p>12</p>
+    <p>12</p>
+    <p>12</p>
+    <p>12</p>
+    <p>12</p>
+    <p>12</p>
+    <p>12</p>
+    <p>12</p>
+    <p>12</p>
+    <p>12</p>
+    <p>12</p>
+    <p>12</p>
+    <p>12</p>
+    <p>12</p>
+    <p>12</p>
+    <p>12</p>
+    <img
+      v-lazy
+      alt="Vue logo"
+      src="https://images.dog.ceo/breeds/affenpinscher/n02110627_8519.jpg"
+    />
+    <img v-lazy alt="Vue logo" src="./assets/bg.jpeg" />
   </div>
 </template>
 
 <script>
-import ComponentA from '@/components/CompA/ComponentA.vue'
-import ComponentB from './components/ComponentB.vue'
-import ComponentC from './components/ComponentC.vue'
 export default {
   name: 'App',
   components: {
-    ComponentA,
-    ComponentB,
-    ComponentC,
   }
 }
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
 </style>
